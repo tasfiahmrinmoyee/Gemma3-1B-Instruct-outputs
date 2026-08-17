@@ -1,0 +1,74 @@
+{
+  "exact_match": 0.17370517928286852,
+  "rouge1": 0.7458888819630954,
+  "rouge2": 0.679213012519414,
+  "rougeL": 0.7402085270849488,
+  "sacrebleu": 64.3076763426596,
+  "retrieval_mean_correct": 0.9604876669585158,
+  "retrieval_mean_incorrect": 0.6704644112964797,
+  "per_bug_type": {
+    "other": {
+      "correct": 42,
+      "total": 1548,
+      "rate": 0.027131782945736434
+    },
+    "assignment": {
+      "correct": 21,
+      "total": 56,
+      "rate": 0.375
+    },
+    "unknown": {
+      "correct": 244,
+      "total": 480,
+      "rate": 0.5083333333333333
+    },
+    "reference": {
+      "correct": 4,
+      "total": 17,
+      "rate": 0.23529411764705882
+    },
+    "syntax": {
+      "correct": 0,
+      "total": 10,
+      "rate": 0.0
+    },
+    "timing_serialization": {
+      "correct": 13,
+      "total": 28,
+      "rate": 0.4642857142857143
+    },
+    "checking": {
+      "correct": 22,
+      "total": 53,
+      "rate": 0.41509433962264153
+    },
+    "build_package_merge": {
+      "correct": 28,
+      "total": 55,
+      "rate": 0.509090909090909
+    },
+    "type": {
+      "correct": 1,
+      "total": 69,
+      "rate": 0.014492753623188406
+    },
+    "logic": {
+      "correct": 9,
+      "total": 87,
+      "rate": 0.10344827586206896
+    },
+    "algorithm": {
+      "correct": 52,
+      "total": 107,
+      "rate": 0.48598130841121495
+    }
+  },
+  "config": {
+    "batch_size": 8,
+    "max_new_tokens": 300,
+    "do_sample": false,
+    "max_seq_length": 2048,
+    "rag_k": 3,
+    "total_time_min": 237.38353672424952
+  }
+}
